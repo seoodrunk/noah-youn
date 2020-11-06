@@ -1,0 +1,159 @@
+@font-face {
+	font-family: "CenturySchoolbook";
+	src:	url(../fonts/CenturySchoolbook.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "CenturySchoolbook-italic";
+	src:	url(../fonts/CenturySchoolbook-italic.ttf) format("truetype");
+}
+
+html {
+	box-sizing: border-box;
+	margin: -10 0 0 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.about {
+	margin: 1em 0 0 0;
+	display: none;
+
+}
+body{
+
+	font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+
+	margin: 0 0 1em 0;
+
+}
+
+h1 {
+	font-size: inherit;
+	font-weight: normal;
+	padding: 0 0 0 0em;
+	margin: 0 0;
+}
+
+
+a, .category-filter {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a, .name {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover, .category-filter:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.category-filter-active {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.category-filtered {
+	display: none;
+}
+
+figure {
+	max-width: 100%;
+	margin: 0 0 0.2em 0;
+}
+
+figcaption {
+
+	text-align: left;
+	margin: 0 0 0 5em;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 85vh;
+
+}
+
+.slide {
+	display: none;
+	cursor: url(pointerright.svg), e-resize;
+}
+
+.slide-active {
+	display: block;
+}
+
+.col1 {
+	width: 75%;
+/* background-color: grey; */
+
+}
+
+.col2 {
+    position: relative;
+    /* right: 0; */
+	background-color: white;
+	width: 25%;
+	padding: 5px 5px 10px 5px;
+}
+
+video {
+max-width: 100%;
+	margin: 0 0 0.2em 0;
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.col2{
+	    position: relative;
+        top: 0.3em;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
+
+	.about {
+	    position: relative;
+        margin: 1.2em 0 0 0;
+	    width: 100%;
+	    background-color: white;
+
+	}
+
+	.col1 {
+        margin: 20px 0 0 0;
+        width: 100%;}
+}
