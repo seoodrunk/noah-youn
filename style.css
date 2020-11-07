@@ -91,6 +91,10 @@ text-align: right;
   right:0;
 }
 
+.about {
+	width: 50%;
+}
+
 /* .close-button:hover {
 	border: 1px solid black;
 } */
