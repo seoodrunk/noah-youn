@@ -1,39 +1,14 @@
-@font-face {
-	font-family: "CenturySchoolbook";
-	src:	url(../fonts/CenturySchoolbook.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "CenturySchoolbook-italic";
-	src:	url(../fonts/CenturySchoolbook-italic.ttf) format("truetype");
-}
-
-html {
-	box-sizing: border-box;
-	margin: -10 0 0 0;
-}
-
 *, *:before, *:after {
+	margin: 0;
 	box-sizing: inherit;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
 }
 
 .about {
 	margin: 1em 0 0 0;
 	display: none;
-
 }
-body{
 
+body{
 	font-family: 'Arial', sans-serif;
     font-weight: normal;
     font-size: 1.4rem;
@@ -76,6 +51,16 @@ a:visited {
 a:hover, .category-filter:hover {
 	color: blue;
 	text-decoration: underline;
+}
+
+.col2 {
+  position: relative;
+
+/* right: 0; */
+width: 100%;
+padding: 0.5em;
+z-index: 99999;
+float: left;
 }
 
 .column {
