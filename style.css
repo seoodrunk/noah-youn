@@ -89,10 +89,12 @@ text-align: right;
 
 .copyright {
   right:0;
+
 }
 
 .about {
 	width: 50%;
+		padding: 2em, 0 0 0;
 }
 
 /* .close-button:hover {
