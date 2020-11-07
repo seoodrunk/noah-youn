@@ -93,6 +93,17 @@ padding: 0 0 0 5em;
 text-align: right;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+.project.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+
+}
+
 .project {
   /*margin-left: 35%;*/
   /* margin-bottom: 8px; */
