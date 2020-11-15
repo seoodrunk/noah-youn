@@ -18,12 +18,12 @@ body {
 
 @font-face {
   font-family: 'MaruBuri';
-  src: url('typefaces/MaruBuri-Regular.otf');
+  src: url('fonts/MaruBuri-Regular.otf');
 }
 
 @font-face {
   font-family: 'FranklinITCBQ';
-  src: url('typefaces/FranklinITCBQ-Demi.otf');
+  src: url('fonts/FranklinITCBQ-Demi.otf');
 }
 
 
