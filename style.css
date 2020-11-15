@@ -201,10 +201,12 @@ img {
 
 .project-content {
     font-family: 'MaruBuri';
+    line-height: 1.8rem;
 }
 
 .project-title {
     font-family: 'FranklinITCBQ';
+
 }
 
 .menu-item {
