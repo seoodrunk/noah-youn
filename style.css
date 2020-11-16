@@ -201,8 +201,8 @@ img {
 
 .project-content {
     font-family: 'MaruBuri';
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
 
 .project-title {
@@ -245,8 +245,8 @@ img {
     text-align: left;
     left: 0;
     padding: 0.5em 0 0 0;
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     margin: 0.5em 0.75em 1.5em 0.75em;
     border-top: 1px solid black;
   }
